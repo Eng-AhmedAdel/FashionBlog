@@ -1,0 +1,233 @@
+@font-face{
+	
+	font-family:ahmedfont;
+	src:url("fonts/Oswald-Bold.ttf");
+	
+	
+	
+	
+}
+
+*{
+	
+box-sizing:border-box;
+}
+*{
+	
+	padding:0px;
+	margin:0px;
+}
+html,body{
+	
+			width:100%;
+			height:100%;
+	
+	
+}
+
+nav{
+
+			height:auto;
+			background-color:black;
+			color:white;
+}
+
+nav a{
+	color:white;
+	font-size:15px;
+	display:inline-block;
+	padding:10px 15px;
+	
+	
+	
+}
+nav a:hover{
+	background-color:gray;
+	
+	}
+
+
+#header1{
+	
+	
+	
+			height:auto;
+			text-align:center;
+			padding:50px 0px;
+			
+			
+}
+#header1 h1{
+	font-weight:bold;
+	font-family: ahmedfont;	
+	
+}
+
+#header1 span{
+	background-color:black;
+	color:white;
+	padding:0px 5px;
+}
+header{
+			height:auto;
+			background-color:black;
+			position:relative;
+	
+	
+	
+}
+header img{
+	
+	width:100%;
+}
+
+.headerdiv{
+	position:absolute;
+	top:40%;
+	left:5%;
+	color:white;
+	font-family:ahmedfont;
+	font-weight:bold;
+	font-size:25px;
+	margin-top:10px
+	
+	
+}
+.headerdiv button{
+	
+	
+	border:none;
+	padding:20px 20px;
+	margin-top:10px;
+	background-color:#9c9b9a;
+	color:black;
+}
+.headerdiv button:hover{
+background-color:#ffffffad;
+color:black;
+}
+
+main{
+			width:100%;
+			height:auto;
+			background-color:#f1f1f1;
+			overflow:auto;
+
+			
+}	
+section{
+	width:70%;
+	float:left;
+	background-color:#f1f1f1;
+	
+	display:inline-block;
+	
+
+	
+}
+section #k:hover{
+	
+	color: #000!important;
+    background-color: #ccc!important;
+
+	
+}
+
+	
+
+
+aside{
+	width:30%;
+	
+	float:right;
+	display:inline-block;
+	
+
+	
+}
+input{width:100%;
+	padding: 8px;
+
+}
+li:hover{
+	background-color:#f1f1f1;
+	
+}
+#b1:hover{
+		color: #000!important;
+    background-color: #ccc!important;
+
+
+	
+}
+#c1:hover{
+			color: #000!important;
+    background-color: #ccc!important;
+
+
+	
+}
+#col:hover{
+		color: #000!important;
+    background-color: #ccc!important;
+
+	
+	
+}
+#clear{
+	clear:both;
+}
+
+
+
+footer{
+
+	height:auto;
+	background-color:#616161;
+}
+
+footer a{
+	padding:20px 20px;
+	
+}
+footer button{
+	font-size:15px;
+	background-color:black;
+	color:white;
+	padding:20px 30px;
+	margin-top:30px;
+	border:none;
+	
+}
+footer button:hover{
+	
+	background-color:#ccc;
+	color:black;
+	
+}
+footer p {
+	padding: 30px;
+	color:white;
+}
+@media screen and (max-width: 600px){
+	main section,main aside
+{
+
+		display:block;
+		width:100%;
+		float:left;
+
+
+
+
+}
+
+
+
+
+
+
+}
+
+
+
